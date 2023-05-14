@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, 
+    initial-scale=1">
+  <meta name="description" content="This site show you how can be usfull bootstrap in 
+    landig pages">
+  <meta name="author" content="Dima">
+  <title>Битко́йн</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="
+    sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1),
+        inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+    p{
+      color:goldenrod;
+    }
+    h5{
+      color:goldenrod;
+    }
+
+    body {
+      background-image: url(https://i.pinimg.com/736x/b7/00/b4/b700b49d2f4724eb5e17746a213c769a.jpg);
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: soft-light;
+    }
+  </style>
+  <link href="/styles/cover.css" rel="stylesheet">
+</head>
+
+<body class="d-flex text-center text-bg-dark">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <header class="mb-auto">
+      <div>
+        <link class=" nav-link fw-bold py-1 px-0"><img src="https://www.pngmart.com/files/15/Bitcoin-Vector-PNG.png"
+          width="32px"></link>
+        <h3 class="float-md-center mb-0 py-1">Твой БИТКОИН</h3>
+        <!-- сюды -->
+        <i></i>
+        <nav class="container nav nav-masthead justify-content-center float-md-end rounded-3">
+
+          <a class="nav-link fw-bold py-1 px-1 active" aria-current="page" href="#">Главная</a>
+          <a class="nav-link fw-bold py-1 px-1" href="tel:+7-918-333-4455">
+            8-918-000-0000</a>
+          <!-- <a class="nav-link fw-bold py-1 px-1" href="#"></a> -->
+          <a class="nav-link fw-bold py-1 px-1" href="#">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="px-3 my-5">
+      <h1 class="py-3 pb-5">Купи БИТКОИН у нас и стань богатым<br>Its REAL LIFE</h1>
+      <p class="lead text-warning fw-bold  text-center rounded-1 ">Купи 50 БИТКОИНОВ в нашем приложении и получи 5 в
+        подарок <br> На данный момент стоимость БИТКОИНА состовляет <br>В кнопке "Хочу узнать больше" <br> Битко́йн, или
+        битко́ин — пиринговая платёжная система, использующая одноимённую единицу для учёта операций. Для обеспечения
+        функционирования и защиты системы используются криптографические методы, но при этом вся информация о
+        транзакциях между адресами системы доступна в открытом виде. </p>
+      <hr>
+      <p class="lead text-warning fw-bold text-center   rounded-1">Размести ссылку на наш сайт у себя на странице в
+        VK,Telegram,Yuotube,Real Life и
+        получай <span style="font-size: 32px;">особые:)</span><br> бонусы для выигрышных 20 БИТКОИНОВ</p>
+      <p class="lead my-5">
+        <a href="https://vk.com" class="btn btn-lg text-light fw-bold btn-outline-warning ">
+          <!--<a disabled></a>-->
+          Хочу узнать больше...
+        </a>
+      </p>
+
+
+      <!-- Modal -->
+      <div class="modal fade " id="example-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-dark bg-opacity-75">
+            <!-- <div class="modal-header"> -->
+            <!-- <h1 class="modal-title fs-5" id="exampleModalLabel"> Modal title</h1>-->
+            <button type="button" class="btn-close ms-auto" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-body">
+              <!-- Все самые большие ВАЛЮТЫ -->
+              <h2 class="text-warning">Самые большие КРИПТЫ</h2>
+              <div class="my-3" style="height:433px; background-color: #212529; overflow:hidden; box-sizing: border-box;
+                border: 1px solid #56667F; border-radius: 4px; text-align: right; line-height: 14px; font-size: 12px;
+                font-feature-settings: normal; text-size-adjust: 100%; box-shadow: inset 0 -20px 0 0 #56667F;
+                padding: 0px; margin: 0px; width: 100%;">
+                <div style="height:413px; padding:0px; margin: 0px; width: 100%;">
+                  <iframe
+                    src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=6&pref_coin_id=1505&graph=yes"
+                    width="100%" height="409px" scrolling="auto" marginwight="0" marginheight="0" frameborder="0"
+                    style="border:0;margin:0;padding:0;">
+                  </iframe>
+                </div>
+                <div style="color:rgb(230,240,250); line-height: 14px; font-weight: 400; font-size: 11px; box-sizing:
+        border-box; padding: 2px 6px; width: 100%; font-family: Verdana, Tahoma, Arial, sans-serif;">
+                  <a href="#" target="_blank"
+                    style="font-weight: 500; color:rgb(230,240,250);text-decoration:none; font-size: 11px;">Цены на
+                    крипту</a>&nbsp;by
+                  КРИПТОВАЛЮТА
+                </div>
+                </p>
+
+                <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container my-5">
+        <div class="row">
+          <!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false"></div>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src=" https://ichef.bbci.co.uk/news/640/cpsprodpb/6D41/production/_116496972_bitcoin.jpg"
+                  class="d-block w-100 rounded-circle " alt="..." width="240px">
+                <div
+                  class="carousel-caption d-none d-md-block text-light fw-bold text-bg-dark bg-opacity-50 rounded-circle">
+                  <h5>БИТКОИН С БОНУСОМ В 100$</h5>
+                  <p>Специальный биткоин разработанный нашими мастерами<br> <span
+                      style="font-size: 32px;">ПУДЖАМИ:)</span>
+                </div>
+                <div class="carousel-item">
+                  <img src=" https://www.ixbt.com/img/n1/news/2021/1/5/bitcoin-ethereum_large.jpg"
+                    class="d-block w-100 rounded-circle" alt="..." width="240px">
+                  <div
+                    class="carousel-caption d-none d-md-block text-light fw-bold text-bg-dark bg-opacity-50 rounded-circle">
+                    <h5>БИТКОИН С АЛМАЗОМ <br> "Стоимость алмаза 0,5$"</h5>
+                    <p>ТО ЧТО ВАМ НАДО <br> Как у богатых реперов</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src=" https://p.turbosquid.com/ts-thumb/Mn/HvGEms/JW/1/jpg/1645505891/600x600/fit_q87/d86fb85dd8c07df828d3042d72759185376377a7/1.jpg"
+                    class="d-block rounded-circle" alt="..." width="640px" height="320">
+                  <div
+                    class="carousel-caption d-none d-md-block text-light fw-bold text-bg-dark bg-opacity-50 rounded-circle">
+                    <h5>БИТКОИН С ЗОЛОТОЙ ЦЕПОЧКОЙ</h5>
+                    <p>Будешь носить и хвастаться<br>Жена одобрит если купишь ей шубу</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div> -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/6D41/production/_116496972_bitcoin.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>БИТКОИН С БОНУСОМ В 100$ </h5>
+                  <p>Специальный биткоин разработанный нашими мастерами</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.ixbt.com/img/n1/news/2021/1/5/bitcoin-ethereum_large.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>БИТКОИН С АЛМАЗОМ <br> Стоимость алмаза 0,5$</h5>
+                  <p>ТО ЧТО ВАМ НАДО <br> Как у богатых реперов</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://p.turbosquid.com/ts-thumb/Mn/HvGEms/JW/1/jpg/1645505891/600x600/fit_q87/d86fb85dd8c07df828d3042d72759185376377a7/1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>БИТКОИН С ЗОЛОТОЙ ЦЕПОЧКОЙ</h5>
+                  <p>Будешь носить и хвастаться<br>Жена одобрит если купишь ей шубу</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <form class="row g-3">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label">Ваше имя</label>
+          <input type="text" class="form-control bg-dark text-light" id="validationDefault01" value="Name" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label">Ваша фамилия</label>
+          <input type="text" class="form-control bg-dark text-light" id="validationDefault02" value="Surname" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label">Как называют тебя друзья</label>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+            <input type="text" class="form-control bg-dark text-light" id="validationDefaultUsername" value="Email"
+              aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label">Город и адрес куда привезти</label>
+          <input type="text" class="form-control bg-dark text-light" id="validationDefault03" required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label">Какой БИТКОИН </label>
+          <select class="form-select bg-dark text-light" id="validationDefault04" required>
+            <option selected disabled value="">Выбирай:)</option>
+            <option>БИТКОИН с бонусом в 100$</option>
+            <option>БИТКОИН с АлмазоМ</option>
+            <option> БИТКОИН с золотой ЦепочкоЙ</option>
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label">Твой телефон</label>
+          <input type="text" class="form-control bg-dark text-light" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Подтверждаешь, что не потеряешь
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-warning" type="submit">Начать изготовление</button>
+        </div>
+      </form>
+
+
+      <div class="container">
+        <hr class="text-light boorder border-3 border-light">
+        <hr class="text-primary border border-3 border-primary">
+        <hr class="text-danger border border-3 border-danger">
+        <h2>Эта форма уже имеет в себе регулярные выражения и вилидацию предстовляемую bootstrap</h2>
+      </div>
+
+      <!-- НОВАЯ ПОЧТИ РАБОЧАЯ ФОРМА -->
+      <div class="row justify-content-center my-3">
+        <div class="col-lg-6 col-xl-12 conteiner">
+          <form id="form" action="https://formsumbit.co/dimonzamorin2020@gmail.com" method="POST"
+            class="needs-validation container " novalidate
+            onsumbit="ym(xxxxxxxx, 'reachGoal', 'sumbit form'); return true;">
+            <!-- yandex mertika -->
+
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http//bitkoinkupi.great-site.net/index.htmlsuccess.html">
+            <div class="container-fluid bg-dark rounded-4 my-3">
+              <div>
+                <label for="email" class="text-warning my-2">Почта</label>
+                <input id="email2" type="email" name="email" class="form-control"
+                  pattern="[A-Z0-9a-z_%+-]+@[A-Za-z0-9.-]+">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="mt-auto text-white-50 bg-dark bg-opacity-25 container-fluid cover-container 
+      d-flex w-100 h-100 p-3 mx-auto flex-column rounded-1">
+      <p>Партнёры<a href="https://getbootstrap.com/" class="text-white mx-3">Bootstrap</a>
+        <a href="https://t.me/Bogdan_top"><img src="/media/telegram.svg" width="32"></a>
+      </p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
+</body>
+
+
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb mt-5 fixed-top">
+    <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="/gallery.html">Gallery</a></li>
+    <li class="breadcrumb-item active text-warning" aria-current="page"></li>
+  </ol>
+</nav>
+<nav class="fixed bottom" aria-label="Page navigation example">
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationDefault01" class="form-label">First name</label>
+    <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefault02" class="form-label">Last name</label>
+    <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationDefaultUsername" class="form-label">Username</label>
+    <div class="input-group">
+      <span class="input-group-text" id="inputGroupPrepend2">@</span>
+      <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label for="validationDefault03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationDefault03" required>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault04" class="form-label">State</label>
+    <select class="form-select" id="validationDefault04" required>
+      <option selected disabled value="">Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-3">
+    <label for="validationDefault05" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="validationDefault05" required>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+</form> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+<form class="was-validated">
+  <div class="mb-3">
+    <label for="validationTextarea" class="form-label">Textarea</label>
+    <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+    <div class="invalid-feedback">
+      Please enter a message in the textarea.
+    </div>
+  </div>
+
+  <div class="form-check mb-3">
+    <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+    <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
+    <div class="invalid-feedback">Example invalid feedback text</div>
+  </div>
+
+  <div class="form-check">
+    <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+    <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+  </div>
+  <div class="form-check mb-3">
+    <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+    <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+    <div class="invalid-feedback">More example invalid feedback text</div>
+  </div>
+
+  <div class="mb-3">
+    <select class="form-select" required aria-label="select example">
+      <option value="">Open this select menu</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select>
+    <div class="invalid-feedback">Example invalid select feedback</div>
+  </div>
+
+  <div class="mb-3">
+    <input type="file" class="form-control" aria-label="file example" required>
+    <div class="invalid-feedback">Example invalid form file feedback</div>
+  </div>
+
+  <div class="mb-3">
+    <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+  </div>
+<Captions
